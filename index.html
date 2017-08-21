@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Google</title>
+	<title>Google</title>	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 <body>
-	<img src="img/google.png">
-	<form>
-		<input type="text" name="search">
+	<div id="gimg">
+		<img style="width: 300px;" src="img/google.png">
 		<br/>
-		<input type="submit" value="Buscar con Google">
-		<input type="submit" value="Voy a tener suerte">
-	</form>
+	</div>
+	<div id="fout">
+		<div class="sb">
+			<form>
+				<input type="text" name="search" class="form-control">
+				
+				<br/>
+				<div class="btns">
+					<input type="submit" value="Buscar con Google" class="btn">
+					<input type="submit" value="Voy a tener suerte" class="btn">
+				</div>
+			</form>
+		</div>	
+	</div>
 </body>
 </html>
 
